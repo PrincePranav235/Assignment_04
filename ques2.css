@@ -1,0 +1,61 @@
+body{
+    background-image: url(bckg1.jpg);
+    
+    background-repeat: no-repeat;
+    text-align: center;
+    margin:20px;
+    padding:20px;
+    border:3px;
+    background-size: 100%;
+}
+h1{
+    padding: 10px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    width: 25%;
+    height: 200;
+    text-align: center;
+    border-radius: 20px;
+}
+p,h3{
+    font-weight: bolder;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cyan;
+
+}
+a{
+    padding:20px;
+    color:black;
+    background-color: aqua;
+    width:20%;
+    height: 150px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+        
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border:2px solid cyan;
+    background-color: palegoldenrod;
+    border-radius: 20px;
+
+    
+
+    
+
+}
+.fitem{
+    padding: 0 8px 8px;
+    border-radius: 10px;
+}
+   
+
